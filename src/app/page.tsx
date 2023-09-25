@@ -1,3 +1,9 @@
+import Destinations from "@/components/destinations/Destinations";
+
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <main className="flex flex-col">
+      <Destinations />
+    </main>
+  );
 }
