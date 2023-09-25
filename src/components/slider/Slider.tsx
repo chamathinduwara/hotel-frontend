@@ -14,8 +14,8 @@ import "./Slider.module.css";
 
 const Slider = () => {
   return (
-    <div className="relative z-10 h-[36rem]">
-      <div className="absolute z-20 bottom-20  left-1/2">
+    <div className="relative z-10 h-fit">
+      <div className="absolute z-20 bottom-6  left-60">
         <Search />
       </div>
       <div className="relative flex flex-col bg">
@@ -26,7 +26,7 @@ const Slider = () => {
             alt="background"
             width={1920}
             height={1080}
-            className="flex flex-col h-[32rem] max-w-full bg"
+            className="flex flex-col h-[36rem] max-w-full bg"
           />
         </div>
       </div>
